@@ -2,180 +2,206 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Akshita Gupta</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+    <title>Nidhi Bhatt</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div class="container">
-      <h1>Nidhi Bhatt</h1>
+    <!-- header design -->
+    <header class = "header">
+        
+        <a href="#" class="logo"> Portfolio </a>
+        <i class='bx bx-menu' id='menu-icon'></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Experience</a>
+            <a href="#portfolio">Projects</a>
+            <!--<a href="#contact">Contact</a>-->
+    
+        </nav>
+        </header>
+      
+    
 
-      <div class="content-wrapper">
-        <div class="main-content">
-          <p>
-            I am a MASc student in University of Guelph, where I am advised by
-            <a href="#">Prof. Graham Taylor</a>. I am also a student researcher
-            at <a href="#">Vector Institute</a>.
-          </p>
-          <p>
-            Previously, I was a Data Scientist at <a href="#">Bayanat</a>, here
-            I work on projects broadly related to Detection and Segmentation
-            domains. I have also worked as a research engineer at
-            <a href="#">Inception Institute of Artificial Intelligence</a>
-            working with <a href="#">Dr Sanath Narayan</a>,
-            <a href="#">Dr Salman Khan</a> and
-            <a href="#">Dr Fahad Shahbaz Khan</a>. At IIAI, I worked on research
-            projects dealing with Open world and zero-shot object Detection,
-            Generative Adversarial Networks and Few- and Zero- shot Learning
-            problems. I also work on industrial projects which try to solve
-            Texture Classification, Object Detection and Object Counting
-            problems.
-          </p>
-          <p>
-            I was fortunate to spend a semester during my undergraduate studies
-            at <a href="#">Indian Institute of Technology Roorkee</a>, where I
-            was supervised by <a href="#">Dr. Balasubramanian Raman</a>.
-            Parallel to my semester at IIT, I was selected as a outreachy
-            intern, with <a href="#">Mozilla (2018)</a>, where I was supervised
-            by <a href="#">Emma Irwin</a>
-          </p>
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Nidhi Bhatt</h1>
+            <h3>And I'm a  <span class="multiple-text"></span></h3>
+            <p></p>
+                <div class="social-media">
+                    <a href="https://github.com/nidhi-bhatt"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/nidhi-bhatt-6b6665221/"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://medium.com/@itsnibhatt"><i class='bx bxl-medium' ></i></a>
+                    <a href="https://twitter.com/ItsNibhatt"><i class='bx bxl-twitter'></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1h3FlbBauoxE7A0gbPyBcaoFzohQEPhQV/view?usp=sharing" class="btn">Download CV</a>
+
         </div>
-        <div class="profile-image">
-          <img src="images/nidhi-bhatt.jpeg" alt="Nidhi Bhatt" />
+        <div class="home-img">
+            <img src="images/nidhi.jpeg" alt="" align="right">
         </div>
+    </section>
+
+    <!-- about section design--> 
+    <section class="about" id="about">
+      <div class="about-img">
+       <img src="images/pic.png" alt="">
       </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Student</h3>
+        <p>Third year computer science engineering student from IGDTUW. Seeking an internship in a company to learn from professionals, enhance skills, and contribute valuable insights.
+           Goal: Secure a challenging position in a reputable organization to expand knowledge and skills.
+          Interests include cricket, reading and music.</p>
+        <p>To contact please email at this link or at itsnibhatt@gmail.com</p>
+        
+          
+        <a href="mailto:itsnibhatt@gmail.com" class="btn">Email</a>
 
-      <div class="contact-links">
-        <a href="#">Email</a> / <a href="#">Google Scholar</a> /
-        <a href="#">Twitter</a> / <a href="#">Github</a> /
-        <a href="#">Resume/CV</a>
-      </div>
+      
+    </section>
 
-      <h2>What's New</h2>
-      <ul class="whats-new">
-        <li>
-          <strong>[Jun 2023]</strong> Our paper
-          <a href="#">Generative Multi-Label Zero-Shot Learning</a> is accepted
-          at TPAMI 2023.
-        </li>
-        <li>
-          <strong>[Jun 2023]</strong> Started interning at Microsoft, ROAR team
-        </li>
-        <li>
-          <strong>[Jan 2023]</strong> Interned at Vector Institute with AI Eng
-          team.
-        </li>
-        <li>
-          <strong>[Sep 2022]</strong> Joined Prof. Graham Taylor's Lab and
-          Vector Institute
-        </li>
-        <li><strong>[Mar 2022]</strong> OW-DETR accepted at CVPR 2022.</li>
-        <li>
-          <strong>[Sep 2021]</strong> Reviewer for CVPR 2023, CVPR 2022, ECCV
-          2022, ICCV 2021, TPAMI.
-        </li>
-        <li><strong>[Jul 2021]</strong> BiAM accepted at ICCV 2021.</li>
-        <li>
-          <strong>[Feb 2021]</strong> Serving as a reviewer for ML
-          Reproducibility Challenge 2020.
-        </li>
-        <li>
-          <strong>[Jan 2021]</strong> Paper out on arxiv:
-          <a href="#">Generative Multi-Label Zero-Shot Learning</a>
-        </li>
-        <li><strong>[Jul 2020]</strong> TF-VAEGAN accepted at ECCV 2020.</li>
-        <li>
-          <strong>[Aug 2019]</strong> A Large-scale Instance Segmentation
-          Dataset for Aerial Images (iSAID) is available for
-          <a href="#">download</a>.
-        </li>
-        <li>
-          <strong>[Aug 2018]</strong> One paper accepted at Interspeech, chime
-          workshop 2018.
-        </li>
-        <li>
-          <strong>[May 2018]</strong> Selected as a Outreachy intern, with
-          Mozilla.
-        </li>
-      </ul>
+ 
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">Volunteer and <span>Responsibility Experience</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <!--<i class='bx bx-code-alt'></i>-->
+          <h3>Internship in ML and
+            Computational Intelligence</h3>
+          <p>In ACM IGDTUW, we wrote a research paper titled ’Biased Reporting in Gender Based Violence’.</p>
+            <div class="readmore"><a href="https://drive.google.com/file/d/17swOi980oLd3CFhus8rpOpliHOaSvwpR/view?usp=sharing" class="btn">Read More</a></div>
+        </div>
 
-      <h2>Research</h2>
-      <p>
-        I'm interested in developing models which can learn with limited data
-        and few, zero or one training sample(s).
-      </p>
+        <div class="services-box">
+          <!--<i class='bx bx-code-alt'></i>-->
+          <h3>Desh Ke Mentor</h3>
+          <p>Served as a Mentor for New Delhi Government’s initiative ’Education Mentoring Program’ which involves the mentoring of girls studying in Delhi Government schools raising awareness about STEM education.
 
-      <div class="research-project">
-        <img src="ow-detr.jpg" alt="OW-DETR Project" />
-        <div>
-          <h3>OW-DETR: Open-world Detection Transformer</h3>
-          <p>
-            Akshita Gupta*, Sanath Narayan*, Joseph KJ, Salman Khan, Fahad
-            Shahbaz Khan, Mubarak Shah
           </p>
-          <p>CVPR 2022</p>
-          <p><a href="#">paper</a> / <a href="#">code</a></p>
-          <ul>
-            <li>
-              <strong>Description:</strong> Developed multi-scale context aware
-              detection framework with attention-driven psuedo-labelling.
-            </li>
-            <li>
-              <strong>Outcome:</strong> Improved state-of-the-art performances
-              on MS-COCO dataset with absolute gains ranging from 1.8% to 3.3%
-              in terms of unknown recall.
-            </li>
-          </ul>
+            <div class="readmore"><a href="https://deshkementor.com/" class="btn">Read More</a></div>
+        </div>
+
+        <div class="services-box" class="design">
+          <!--<i class='bx bx-code-alt'></i>-->
+          <h3>Design Team at IGDTUW</h3>
+          <p>Using Canva, my team collaborated to design the ASH Department's newsletter, showing accomplishments, research, events and more.</p>
+          <div class="readmore"><a href="https://www.igdtuw.ac.in/studentlife.php?id=488" class="btn">Read More</a></div>
+        </div>
+        <div class="services-box">
+          <!--<i class='bx bx-code-alt'></i>-->
+          <h3>Head Coordinator at Innerve’22(CS/IT Team)</h3>
+          <p>Developed 'Bridge of Life' game in Unity3D, based on Netflix's thriller Squid Game, played by over 100+ participants at IGDTUW's annual technical fest.
+          </p>
+            <div class="readmore"><a href="https://github.com/Kirti-Sharma19/The-Bridge-of-Life" class="btn">Read More</a></div>
         </div>
       </div>
+    </section>
 
-      <!-- Add more research projects here -->
 
-      <h2>Research Experience</h2>
-      <div class="experience">
-        <img src="bayanat-logo.png" alt="Bayanat Logo" />
-        <div>
-          <h3>Data Scientist, Bayanat</h3>
-          <p><em>January 2022 - present</em></p>
-          <p>Supervisors: Dr Meng Wang, Dr Fan Zhu</p>
-        </div>
-      </div>
-
-      <div class="experience">
-        <img src="iiai-logo.png" alt="IIAI Logo" />
-        <div>
-          <h3>
-            Research Engineer, Inception Institute of Artificial Intelligence
-          </h3>
-          <p><em>Dec 2018 - present</em></p>
-          <p>
-            Supervisors: Dr Sanath Narayan, Dr Salman Khan, Dr Fahad Shahbaz
-            khan
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+        <img src="images/factify.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Factify</h4>
+          <p>Made a web-app using html, css, javascript using supabase in which users can add and view facts over several categories.
           </p>
-          <ul>
-            <li>
-              Developing deep learning algorithms for low- (Few- and zero-) shot
-              detection and classification, generative adversarial models and
-              open-world object detection problems.
-            </li>
-            <li>Developed rock & seismic layer classification system.</li>
-            <li>
-              Worked on satellite-imagery object detection and object counting
-              system.
-            </li>
-          </ul>
+          <a href="https://factify-facts.netlify.app/"><i class='bx bx-link-external' ></i></a>
+
         </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/raven.png" alt="">
+          <div class="portfolio-layer">
+            <h4>Raven’s Quest</h4>
+            <p>Made a game called Raven’s Quest in Unity 2D.
+            </p>
+            <a href="https://simmer.io/@Nidhi_Bhatt/raven-s-quest"><i class='bx bx-link-external' ></i></a>
+  
+          </div>
+          </div>
+
+          
+
+            <div class="portfolio-box">
+              <img src="images/ubuntu.png" alt="">
+              <div class="portfolio-layer">
+                <h4>Ubuntu-Setup-Script</h4>
+                <p>This script updates ubuntu and installs recommended software, such as flatpak, timeshift, google chrome, and more.
+                </p>
+                <a href="https://github.com/nidhi-bhatt/ubuntu-setup-script"><i class='bx bx-link-external' ></i></a>
+      
+              </div>
+              </div>
+
+              <div class="portfolio-box">
+                <img src="images/learn-aid.png" alt="">
+                <div class="portfolio-layer">
+                  <h4>Learn-Aid</h4>
+                  <p>Collaborated on a Flutter app with a Firebase backend, connecting mentors to NGOs for teaching children. Handled the front-end part.
+                  </p>
+                  <a href="https://github.com/DiyaSingla/Learn-Aid"><i class='bx bx-link-external' ></i></a>
+        
+                </div>
+                </div>
+      </div>
+    </section>
+
+    <!-- contact section design 
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
+
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number">
+          <input type="text" placeholder="Email Subject">
+
+        </div>
+        <textarea name="" id="" cols="30" rows="10">Your Message</textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section> -->
+
+    <!-- footer design -->
+    <footer class="footer" id="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Nidhi | All Rights Reserved</p>
       </div>
 
-      <!-- Add more experience entries here -->
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
 
-      <footer>
-        <p>I borrowed this website layout from <a href="#">here</a>!</p>
-      </footer>
-    </div>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
   </body>
 </html>
+
+

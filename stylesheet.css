@@ -1,0 +1,170 @@
+table {
+  margin-bottom: 10px;
+}
+
+tr {
+  vertical-align: top;
+}
+
+td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+body {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.3;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1000px;
+  color: #333;
+}
+
+name {
+  font-size: 38px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+}
+
+heading {
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+papertitle {
+  font-weight: 600;
+  font-size: 15px;
+  color: #000;
+}
+
+a {
+  color: #d62a1e;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #f09228;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 8px;
+  padding-right: 10px;
+}
+
+ul li {
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+ol li {
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+
+/* Profile image hover effect */
+#myimg {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  float: right;
+  margin-left: 15px;
+}
+
+#myimg:hover {
+  opacity: 0.95;
+}
+
+/* News container */
+.news-container {
+  max-height: none;
+  overflow-y: visible;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+/* News section styling */
+.news-section strong {
+  font-weight: 600;
+  color: #000;
+}
+
+.news-section a {
+  color: #d62a1e;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.news-section a:hover {
+  color: #f09228;
+}
+
+.news-section td {
+  line-height: 1.3;
+  font-size: 14px;
+  vertical-align: top;
+  padding: 6px 0;
+}
+
+/* Style specific for dates in What's New section */
+td strong {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 800px) {
+  body {
+    padding: 0 15px;
+    font-size: 15px;
+  }
+
+  name {
+    font-size: 32px;
+  }
+
+  heading {
+    font-size: 24px;
+  }
+}
+
+/* Style for section headers like "News" */
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+/* For publication links */
+ol {
+  padding-left: 25px;
+}
+
+/* For contact links at bottom of profile */
+.contact-links {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.contact-links a {
+  margin: 0 8px;
+}

@@ -1,197 +1,805 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Nidhi Bhatt</title>
 
-    <!-- box icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="author" content="Nidhi Bhatt" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link rel="icon" type="image/png" href="images/seal_icon.png" />
+    <style>
+      body {
+        font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.3;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 1000px;
+        color: #333;
+      }
+
+      name,
+      n {
+        font-size: 38px;
+        font-weight: 600;
+        color: #000;
+        text-align: center;
+        display: block;
+        margin: 15px auto;
+      }
+
+      heading {
+        font-size: 24px;
+        font-weight: 600;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #000;
+      }
+
+      papertitle {
+        font-weight: 600;
+        font-size: 15px;
+        color: #000;
+      }
+
+      a {
+        color: #d62a1e;
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
+
+      a:hover {
+        color: #f09228;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 1.3;
+        margin-bottom: 8px;
+        padding-right: 10px;
+      }
+
+      ul li {
+        font-size: 14px;
+        line-height: 1.3;
+        margin-bottom: 4px;
+      }
+
+      ol li {
+        font-size: 14px;
+        line-height: 1.3;
+        margin-bottom: 6px;
+      }
+
+      /* Profile image styling */
+      #myimg {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+        padding: 5px;
+        float: right;
+        margin-left: 15px;
+        margin-top: 50px;
+      }
+
+      /* Name hover effect */
+      #b {
+        display: none;
+      }
+
+      #namechange:hover #a {
+        display: none;
+      }
+
+      #namechange:hover #b {
+        display: inline;
+      }
+
+      /* Section headers */
+      h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #000;
+      }
+
+      /* Table styling */
+      table {
+        margin-bottom: 10px;
+      }
+
+      tr {
+        vertical-align: top;
+      }
+
+      td {
+        padding-top: 2px;
+        padding-bottom: 2px;
+      }
+
+      /* News section styling */
+      .news-section td {
+        line-height: 1.3;
+        font-size: 14px;
+        vertical-align: top;
+        padding: 6px 0;
+      }
+
+      /* For publication links */
+      ol {
+        padding-left: 25px;
+      }
+
+      /* For contact links */
+      .contact-links {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+      }
+
+      /* Responsive design */
+      @media only screen and (max-width: 800px) {
+        body {
+          padding: 0 15px;
+          font-size: 14px;
+        }
+
+        name {
+          font-size: 32px;
+        }
+
+        heading {
+          font-size: 22px;
+        }
+      }
+    </style>
   </head>
 
   <body>
-    <!-- header design -->
-    <header class = "header">
-        
-        <a href="#" class="logo"> Portfolio </a>
-        <i class='bx bx-menu' id='menu-icon'></i>
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Experience</a>
-            <a href="#portfolio">Projects</a>
-            <!--<a href="#contact">Contact</a>-->
-    
-        </nav>
-        </header>
-      
-    
+    <table
+      style="
+        width: 100%;
+        border: 0px;
+        border-spacing: 0px;
+        border-collapse: separate;
+        margin-right: auto;
+        margin-left: auto;
+      "
+    >
+      <tbody>
+        <tr style="padding: 0px">
+          <td style="padding: 0px">
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr style="padding: 0px">
+                  <td style="padding: 2.5%; width: 75%; vertical-align: middle">
+                    <p id="namechange" align="center">
+                      <span id="a"><name>Nidhi Bhatt</name></span>
+                      <span
+                        id="b"
+                        style="font-family: 'Gugi', cursive; font-size: 40px"
+                      >
+                        निधि भट्ट
+                      </span>
+                    </p>
+                    <p style="text-align: justify">
+                      I am a final year B.Tech student in Computer Science at
+                      Indira Gandhi Delhi Technical University For Women. My
+                      research interests are in the application of machine
+                      learning and artificial intelligence in healthcare,
+                      particularly medical image analysis and signal processing.
+                    </p>
+                    <p style="text-align: justify">
+                      Currently, I am working as a Research Mentee at MISAHUB
+                      under the guidance of Dr. Nidhi Goel, focusing on medical
+                      image analysis. I have co-authored multiple research
+                      papers in various domains including AI for healthcare,
+                      cryptography, and speech processing.
+                    </p>
+                    <p style="text-align: center">
+                      <a href="mailto:nidhi040btcse21@igdtuw.ac.in"
+                        >University Email</a
+                      >
+                      &nbsp/&nbsp
+                      <a href="mailto:mynibhatt@gmail.com">Personal Email</a>
+                      &nbsp/&nbsp
+                      <a href="https://github.com/nidhi-bhatt">Github</a>
+                      &nbsp/&nbsp
+                      <a
+                        href="https://www.linkedin.com/in/nidhi-bhatt-6b6665221/"
+                        >LinkedIn</a
+                      >
+                      &nbsp/&nbsp
+                      <a
+                        href="https://drive.google.com/file/d/1BwKMcpwrKhiVb26l_i-wA3CXCV7WNiwM/view?usp=drive_link"
+                        >CV</a
+                      >
+                    </p>
+                  </td>
+                  <td style="padding: 2.5%; width: 28%; max-width: 28%">
+                    <a href="images/profile_pic.png"
+                      ><img
+                        id="myimg"
+                        alt="profile photo"
+                        src="images/profile_pic.png"
+                        class="hoverZoomLink"
+                    /></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-    <!-- home section design -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, It's Me</h3>
-            <h1>Nidhi Bhatt</h1>
-            <h3>And I'm a  <span class="multiple-text"></span></h3>
-            <p></p>
-                <div class="social-media">
-                    <a href="https://github.com/nidhi-bhatt"><i class='bx bxl-github'></i></a>
-                    <a href="https://www.linkedin.com/in/nidhi-bhatt-6b6665221/"><i class='bx bxl-linkedin' ></i></a>
-                    <!--<a href="#"><i class='bx bxl-medium' ></i></a>-->
-                    <a href="https://twitter.com/ItsNibhatt"><i class='bx bxl-twitter'></i></a>
-                </div>
-                <a href="https://drive.google.com/file/d/1YW1E5QiCqJQSkVr5cwHPyc-lOcBZbLtu/view?usp=sharing" class="btn">Download CV</a>
+            <h2>News</h2>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+              class="news-section"
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 4px 0; width: 100%; vertical-align: top">
+                    <strong>[Jul 2024]</strong> Published paper "Depression
+                    Detection from Speech Using a Voting Ensemble Approach" in
+                    IEEE CICT'24.
+                  </td>
+                </tr>
+                <!-- <tr>
+                  <td style="padding: 4px 0; width: 100%; vertical-align: top">
+                    <strong>[Jul 2024]</strong> Completed my Research Internship
+                    at NSUT East Campus.
+                  </td>
+                </tr> -->
+                <tr>
+                  <td style="padding: 4px 0; width: 100%; vertical-align: top">
+                    <strong>[Jul 2024]</strong> Published paper "<a
+                      href="https://ieeexplore.ieee.org/abstract/document/10728982"
+                      >Comparative Analysis of Hybrid Cryptosystems for Secure
+                      Image Encryption</a
+                    >" in IEEE PKIA'24.
+                  </td>
+                </tr>
+                <!-- <tr>
+                  <td style="padding: 4px 0; width: 100%; vertical-align: top">
+                    <strong>[Jul 2024]</strong> Completed my Summer Training at
+                    Ministry of Electronics and Information Technology (MeitY).
+                  </td>
+                </tr> -->
+                <tr>
+                  <td style="padding: 4px 0; width: 100%; vertical-align: top">
+                    <strong>[Jun 2024]</strong> Presented review on "<a
+                      href="https://drive.google.com/file/d/1cQbGPQynIn54CakFslR8pQcrvw92nA_m/view"
+                      >AI-Driven Multimodal Approaches to Global Disease
+                      Management</a
+                    >" at the 3rd ICACCM'24 Conference.
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 4px 0; width: 100%; vertical-align: top">
+                    <strong>[Dec 2023]</strong> Started as a Research Mentee at
+                    MISAHUB (Medical Image Signal Analysis Hub).
+                  </td>
+                </tr>
+                <!-- <tr>
+                  <td style="padding: 4px 0; width: 100%; vertical-align: top">
+                    <strong>[Dec 2023]</strong> Received certification as Home
+                    Based Health Care Provider from IGNOU.
+                  </td>
+                </tr> -->
+                <tr>
+                  <td style="padding: 4px 0; width: 100%; vertical-align: top">
+                    <strong>[Sep 2023]</strong> Published paper "<a
+                      href="https://link.springer.com/chapter/10.1007/978-3-031-75164-6_17"
+                      >Hindi Speech Recognition using Deep Learning: A Review</a
+                    >" in Springer.
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 4px 0; width: 100%; vertical-align: top">
+                    <strong>[Feb 2022]</strong> Selected as a Harvard WECode'22
+                    Scholar and attended the annual conference.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-        </div>
-        <div class="home-img">
-            <img src="images/home.png" alt="" align="right">
-        </div>
-    </section>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="width: 100%; vertical-align: middle">
+                    <heading>Research</heading>
+                    <p>
+                      I'm interested in applying AI and machine learning
+                      techniques to solve problems in healthcare, particularly
+                      in medical image analysis, glucose forecasting for
+                      diabetes patients, and mental health detection from speech
+                      signals.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-    <!-- about section design--> 
-    <section class="about" id="about">
-      <div class="about-img">
-       <!--<img src="images/about.png" alt="">-->
-      </div>
-      <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>Student</h3>
-        <p>Seeking an internship in a company to learn from professionals, enhance skills, and contribute valuable insights.
-           Goal: Secure a challenging position in a reputable organization to expand knowledge and skills.
-          Interests include cricket, reading and music.</p>
-        <p>To contact please email at this link or at itsnibhatt@gmail.com</p>
-        
-          
-        <a href="mailto:itsnibhatt@gmail.com" class="btn">Email</a>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="vertical-align: middle">
+                    <div class="one">
+                      <img src="images/glucose_forecasting.jpg" width="200" />
+                    </div>
+                  </td>
+                  <td style="padding: 15px; width: 75%; vertical-align: middle">
+                    <papertitle
+                      >Blood Glucose Forecasting System for Diabetes
+                      Patients</papertitle
+                    >
+                    <br />
+                    <strong>Nidhi Bhatt</strong>
+                    <br />
+                    <strong>Bachelors Major Project (2024-2025)</strong>
+                    <br />
+                    <ul>
+                      <li>
+                        <u>Description:</u> Developed a blood glucose
+                        forecasting system for diabetes patients using XGBoost
+                        with SHAP interpretability, including glycemic range
+                        classification.
+                      </li>
+                      <li>
+                        <u>Outcome:</u> Outperformed existing methods by 22-38%
+                        on key metrics (RMSE, MAE, MAPE) across multiple
+                        prediction horizons. Achieved 78.3% accuracy for
+                        hypoglycemia and 82.7% for hyperglycemia detection.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-      
-    </section>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 15px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <img src="images/gi_bleeding.jpg" width="160" />
+                    </div>
+                  </td>
+                  <td style="padding: 15px; width: 75%; vertical-align: middle">
+                    <a href="https://arxiv.org/abs/2409.00639">
+                      <papertitle
+                        >Artificial Intelligence in Gastrointestinal Bleeding
+                        Analysis for Video Capsule Endoscopy</papertitle
+                      >
+                    </a>
+                    <br />
+                    T. Singh, S. Jha, <strong>Nidhi Bhatt</strong>, P. Handa, N.
+                    Goel, S. Indu
+                    <br />
+                    <strong>arXiv preprint (2024)</strong>
+                    <br />
+                    <a href="https://arxiv.org/abs/2409.00639">paper</a>
+                    <ul>
+                      <li>
+                        <u>Description:</u> Co-authored a comprehensive review
+                        on AI techniques for GI bleeding detection in Video
+                        Capsule Endoscopy (2008-2023).
+                      </li>
+                      <li>
+                        <u>Outcome:</u> Analyzed 113 papers on ML methodologies
+                        for GI bleeding detection.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
- 
-    <!-- services section design -->
-    <section class="services" id="services">
-      <h2 class="heading">Volunteer and <span>Responsibility Experience</span></h2>
-      <div class="services-container">
-        <div class="services-box">
-          <!--<i class='bx bx-code-alt'></i>-->
-          <h3>Internship in ML and
-            Computational Intelligence</h3>
-          <p>In ACM IGDTUW, we wrote a research paper titled ’Biased Reporting in Gender Based Violence’.</p>
-            <div class="readmore"><a href="https://drive.google.com/file/d/17swOi980oLd3CFhus8rpOpliHOaSvwpR/view?usp=sharing" class="btn">Read More</a></div>
-        </div>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="vertical-align: middle">
+                    <div class="one">
+                      <img src="images/depression_detection.jpg" width="200" />
+                    </div>
+                  </td>
+                  <td style="padding: 15px; width: 75%; vertical-align: middle">
+                    <a href="https://ieeexplore.ieee.org/document/10899608">
+                      <papertitle
+                        >Depression Detection from Speech Using a Voting
+                        Ensemble Approach</papertitle
+                      >
+                    </a>
+                    <br />
+                    <strong>Nidhi Bhatt</strong>, Amita Jain, M. Jain, S. Bhatt
+                    <br />
+                    <strong>IEEE CICT'24</strong>
+                    <br />
+                    <a href="https://ieeexplore.ieee.org/document/10899608"
+                      >paper</a
+                    >
+                    <ul>
+                      <li>
+                        <u>Description:</u> Developed a novel voting ensemble ML
+                        model for depression detection from speech.
+                      </li>
+                      <li>
+                        <u>Outcome:</u> Achieved 78.69% accuracy and 76.36%
+                        F1-score, outperforming previous approaches.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-        <div class="services-box">
-          <!--<i class='bx bx-code-alt'></i>-->
-          <h3>Desh Ke Mentor</h3>
-          <p>Served as a Mentor for New Delhi Government’s initiative ’Education Mentoring Program’ which involves the mentoring of girls studying in Delhi Government schools raising awareness about STEM education
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 15px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <img
+                        src="images/crypto_image.jpg"
+                        width="140"
+                        align="right"
+                      />
+                    </div>
+                  </td>
+                  <td style="padding: 15px; width: 75%; vertical-align: middle">
+                    <a
+                      href="https://ieeexplore.ieee.org/abstract/document/10728982"
+                    >
+                      <papertitle
+                        >Comparative Analysis of Hybrid Cryptosystems for Secure
+                        Image Encryption</papertitle
+                      >
+                    </a>
+                    <br />
+                    <strong>Nidhi Bhatt</strong>
+                    <br />
+                    <strong>IEEE PKIA'24</strong>
+                    <br />
+                    <a
+                      href="https://ieeexplore.ieee.org/abstract/document/10728982"
+                      >paper</a
+                    >
+                    <ul>
+                      <li>
+                        <u>Description:</u> Compared two hybrid cryptosystems
+                        (AES-256-GCM-SHA384 and ChaCha20-Poly1305-SHA256) with
+                        ECDH key exchange for secure image encryption.
+                      </li>
+                      <li>
+                        <u>Outcome:</u> Achieved strong encryption quality with
+                        minimal image correlation and robust security features.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-          </p>
-            <div class="readmore"><a href="https://deshkementor.com/" class="btn">Read More</a></div>
-        </div>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tr>
+                <td width="100%" valign="middle">
+                  <heading>Research Experience</heading>
+                </td>
+              </tr>
+            </table>
 
-        <div class="services-box">
-          <!--<i class='bx bx-code-alt'></i>-->
-          <h3>Design Team at IGDTUW</h3>
-          <p>Using Canva, my team collaborated to design the ASH Department's newsletter, presenting accomplishments, research, events, and more in a visually appealing format that highlights the achievements and engages the community.
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 15px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <img
+                        src="images/misahub.png"
+                        width="150"
+                        style="
+                          background-color: white;
+                          padding: 10px;
+                          vertical-align: middle;
+                        "
+                      />
+                    </div>
+                  </td>
+                  <td style="padding: 15px; width: 75%; vertical-align: middle">
+                    <papertitle
+                      >Research Mentee, MISAHUB (Medical Image Signal Analysis
+                      Hub)</papertitle
+                    >
+                    <br />
+                    <em>December 2023 - January 2025</em>
+                    <br />
+                    Supervisor: Dr. Nidhi Goel
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 15px; width: 25%">
+                    <div class="one" style="height: auto">
+                      <img
+                        src="images/meity_logo.png"
+                        width="160"
+                        style="vertical-align: middle"
+                      />
+                    </div>
+                  </td>
+                  <td style="padding: 15px; width: 75%; vertical-align: middle">
+                    <papertitle
+                      >Summer Trainee, Ministry of Electronics and Information
+                      Technology (MeitY)</papertitle
+                    >
+                    <br />
+                    <em>June 2024 - July 2024</em>
+                    <br />
+                    Supervisor: Mr. Prabhat Kumar, Scientist-D
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 15px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <img
+                        src="images/nsut_logo.jpg"
+                        width="150"
+                        style="
+                          background-color: white;
+                          padding: 10px;
+                          vertical-align: middle;
+                        "
+                      />
+                    </div>
+                  </td>
+                  <td style="padding: 15px; width: 75%; vertical-align: middle">
+                    <papertitle>Research Intern, NSUT</papertitle>
+                    <br />
+                    <em>June 2024 - July 2024</em>
+                    <br />
+                    Supervisor: Dr. Amita Jain
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="width: 100%; vertical-align: middle">
+                    <heading>Publications</heading>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-          </p>
-            <div class="readmore"><a href="https://www.igdtuw.ac.in/studentlife.php?id=488" class="btn">Read More</a></div>
-        </div>
-        <div class="services-box">
-          <!--<i class='bx bx-code-alt'></i>-->
-          <h3>Head Coordinator at Innerve’22(CS/IT Team)</h3>
-          <p>Developed 'Bridge of Life' game in Unity3D, based on Netflix's thriller Squid Game, played by over 100+ participants at IGDTUW's annual technical fest.
-          </p>
-            <div class="readmore"><a href="https://github.com/Kirti-Sharma19/The-Bridge-of-Life" class="btn">Read More</a></div>
-        </div>
-      </div>
-    </section>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td
+                    style="
+                      padding: 5px 15px;
+                      width: 100%;
+                      vertical-align: middle;
+                    "
+                  >
+                    <ol style="margin-top: 5px">
+                      <li style="padding-bottom: 5px">
+                        Singh, T., Jha, S.,
+                        <strong style="color: #d62a1e">Bhatt, N.</strong>,
+                        Handa, P., Goel, N., & Indu, S. (2024). "<a
+                          href="https://arxiv.org/abs/2409.00639"
+                          >Artificial Intelligence in Gastrointestinal Bleeding
+                          Analysis for Video Capsule Endoscopy: Insights,
+                          Innovations, and Prospects (2008-2023)</a
+                        >". <em>arXiv preprint arXiv:2409.00639</em>.
+                      </li>
+                      <li style="padding-bottom: 5px">
+                        <strong style="color: #d62a1e">Bhatt, N.</strong>
+                        (2024). "<a
+                          href="https://ieeexplore.ieee.org/abstract/document/10728982"
+                          >Comparative Analysis of Hybrid Cryptosystems for
+                          Secure Image Encryption</a
+                        >". In
+                        <em
+                          >2024 IEEE International Conference on Public Key
+                          Infrastructure and its Applications (PKIA)</em
+                        >, pages 1--7. IEEE.
+                      </li>
+                      <li style="padding-bottom: 5px">
+                        <strong style="color: #d62a1e">Bhatt, N.</strong>, Jain,
+                        A., Jain, M., & Bhatt, S. (2024). "<a
+                          href="https://ieeexplore.ieee.org/document/10899608"
+                          >Depression Detection from Speech Using a Voting
+                          Ensemble Approach</a
+                        >". In
+                        <em
+                          >2024 IEEE 8th International Conference on Information
+                          and Communication Technology (CICT)</em
+                        >, pages 1--6. IEEE.
+                      </li>
+                      <li style="padding-bottom: 5px">
+                        Joshi, R.,
+                        <strong style="color: #d62a1e">Bhatt, N.</strong>, &
+                        Lathwal, A. "<a
+                          href="https://drive.google.com/file/d/1cQbGPQynIn54CakFslR8pQcrvw92nA_m/view"
+                          >AI-Driven Multimodal Approaches to Global Disease
+                          Management: A Review</a
+                        >". In
+                        <em
+                          >2024 IEEE 3rd International Conference on Advances in
+                          Computing, Communication and Materials (ICACCM)</em
+                        >, IEEE Xplore.
+                      </li>
+                      <li style="padding-bottom: 5px">
+                        <strong style="color: #d62a1e">Bhatt, N.</strong>,
+                        Bhatt, S., & Garg, G. (2023). "<a
+                          href="https://link.springer.com/chapter/10.1007/978-3-031-75164-6_17"
+                          >Hindi Speech Recognition using Deep Learning: A
+                          Review</a
+                        >". In
+                        <em
+                          >International Conference on Artificial Intelligence
+                          and Speech Technology</em
+                        >, pages 227--237. Springer.
+                      </li>
+                    </ol>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-
-    <!-- portfolio section design -->
-    <section class="portfolio" id="portfolio">
-      <h2 class="heading">Latest <span>Projects</span></h2>
-      <div class="portfolio-container">
-        <div class="portfolio-box">
-        <img src="images/factify.png" alt="">
-        <div class="portfolio-layer">
-          <h4>Factify</h4>
-          <p>Made a web-app using html, css, javascript using supabase in which users can add and view facts over several categories.
-          </p>
-          <a href="https://factify-facts.netlify.app/"><i class='bx bx-link-external' ></i></a>
-
-        </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="images/raven.png" alt="">
-          <div class="portfolio-layer">
-            <h4>Raven’s Quest</h4>
-            <p>Made a game called Raven’s Quest in Unity 2D.
-            </p>
-            <a href="https://simmer.io/@Nidhi_Bhatt/raven-s-quest"><i class='bx bx-link-external' ></i></a>
-  
-          </div>
-          </div>
-
-          <div class="portfolio-box">
-            <img src="images/learn-aid.png" alt="">
-            <div class="portfolio-layer">
-              <h4>Learn-Aid</h4>
-              <p>Collaborated on a Flutter app with a Firebase backend, connecting mentors to NGOs for teaching children in grades 1-5. Handled the front-end part.
-              </p>
-              <a href="https://github.com/DiyaSingla/Learn-Aid"><i class='bx bx-link-external' ></i></a>
-    
-            </div>
-            </div>
-      </div>
-    </section>
-
-    <!-- contact section design 
-    <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me!</span></h2>
-      <form action="#">
-        <div class="input-box">
-          <input type="text" placeholder="Full Name">
-          <input type="email" placeholder="Email Address">
-
-        </div>
-        <div class="input-box">
-          <input type="number" placeholder="Mobile Number">
-          <input type="text" placeholder="Email Subject">
-
-        </div>
-        <textarea name="" id="" cols="30" rows="10">Your Message</textarea>
-        <input type="submit" value="Send Message" class="btn">
-      </form>
-    </section> -->
-
-    <!-- footer design -->
-    <footer class="footer" id="footer">
-      <div class="footer-text">
-        <p>Copyright &copy; 2023 by Nidhi | All Rights Reserved</p>
-      </div>
-
-      <div class="footer-iconTop">
-        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-      </div>
-    </footer>
-
-
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- typed js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <!-- custom js -->
-    <script src="script.js"></script>
+            <table
+              width="100%"
+              align="center"
+              border="0"
+              cellspacing="0"
+              cellpadding="15"
+            >
+              <tr>
+                <td>
+                  <br />
+                  <p align="right">
+                    <font size="2">
+                      <strong
+                        >Website layout inspired by
+                        <a target="_blank" href="https://jonbarron.info/"
+                          >Jon Barron</a
+                        ></strong
+                      >
+                    </font>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
-
-
